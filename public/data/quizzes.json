@@ -1,0 +1,102 @@
+[
+    {
+        "title": "What is the capital of Canada?",
+        "answers": {
+            "A": "Toronto",
+            "B": "Ottawa",
+            "C": "Vancouver",
+            "D": "Montreal"
+        },
+        "right_answer": "Toronto"
+    },
+    {
+        "title": "Who painted the Mona Lisa?",
+        "answers": {
+            "A": "Pablo Picasso",
+            "B": "Michelangelo",
+            "C": "Leonardo da Vinci",
+            "D": "Vincent van Gogh"
+        },
+        "right_answer": "Leonardo da Vinci"
+    },
+    {
+        "title": "What is the boiling point of water at sea level?",
+        "answers": {
+            "A": "90°C",
+            "B": "95°C",
+            "C": "100°C",
+            "D": "105°C"
+        },
+        "right_answer": "100°C"
+    },
+    {
+        "title": "In which year did World War II end?",
+        "answers": {
+            "A": "1940",
+            "B": "1943",
+            "C": "1945",
+            "D": "1950"
+        },
+        "right_answer": "1945"
+    },
+    {
+        "title": "What’s the main ingredient in guacamole?",
+        "answers": {
+            "A": "Tomato",
+            "B": "Avocado",
+            "C": "Pepper",
+            "D": "Onion"
+        },
+        "right_answer": "Avocado"
+    },
+        {
+        "title": "What is the largest planet in our solar system?",
+        "answers": {
+            "A": "Earth",
+            "B": "Saturn",
+            "C": "Jupiter",
+            "D": "Mars"
+        },
+        "right_answer": "Jupiter"
+    },
+    {
+        "title": "Which element has the chemical symbol 'O'?",
+        "answers": {
+            "A": "Gold",
+            "B": "Oxygen",
+            "C": "Osmium",
+            "D": "Hydrogen"
+        },
+        "right_answer": "Oxygen"
+    },
+    {
+        "title": "Who wrote the play 'Romeo and Juliet'?",
+        "answers": {
+            "A": "William Wordsworth",
+            "B": "William Shakespeare",
+            "C": "Jane Austen",
+            "D": "Mark Twain"
+        },
+        "right_answer": "William Shakespeare"
+    },
+    {
+        "title": "What is the smallest prime number?",
+        "answers": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+        },
+        "right_answer": "2"
+    },
+    {
+        "title": "Which continent is known as the 'Dark Continent'?",
+        "answers": {
+            "A": "Asia",
+            "B": "Africa",
+            "C": "South America",
+            "D": "Australia"
+        },
+        "right_answer": "Africa"
+    }
+]
