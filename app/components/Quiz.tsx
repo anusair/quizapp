@@ -30,10 +30,9 @@ function Quiz() {
   const [result, setResult] = useState<number>(0);
   const [submitted, setSubmitted] = useState(false);
 
-
   const data = jsonData[count];
 
-  const { minutes, seconds, start , isActive} = useTimer({
+  const { minutes, seconds, start, isActive } = useTimer({
     initialMinutes: 0,
     initialSeconds: 10,
     onComplete: () => {
@@ -97,19 +96,19 @@ function Quiz() {
   }, []);
 
   return !submitted ? (
-    <div className="bg-[#eee] p-5 rounded-md w-1/2 min-h-1/2 max-h-2/3">
-      <div className="flex items-center justify-between bg-white p-3 rounded-md">
-        <div className="flex items-center gap-4">
-          <span className="text-2xl font-bold">Q.{count + 1}</span>
-          <h1 className="text-2xl font-bold">{data?.title}</h1>
+    <div className="bg-[#eee] p-5 rounded-md w-full h-screen max-h-screen flex flex-col justify-center xl:block xl:h-1/2 xl:w-1/2 mx-auto">
+      <div className="flex flex-col md:flex-row items-center justify-between bg-white p-3 rounded-md">
+        <div className="flex items-start md:items-center gap-4">
+          <span className="text-xl md:text-2xl font-bold">Q.{count + 1}</span>
+          <h1 className="text-xl md:text-2xl font-bold">{data?.title}</h1>
         </div>
-        <span className="text-[#008000] font-bold">
+        <span className="text-[#008000] font-bold self-start">
           {minutes < 10 ? `0${minutes}` : minutes}:
           {seconds < 10 ? `0${seconds}` : seconds}
         </span>
       </div>
       {/* answers container */}
-      <Answers 
+      <Answers
         data={data}
         count={count}
         selectedAnswers={selectedAnswers}
@@ -125,7 +124,7 @@ function Quiz() {
       />
     </div>
   ) : (
-    <Result result={result} questions={jsonData.length}/>
+    <Result result={result} questions={jsonData.length} />
   );
 }
 export default Quiz;
